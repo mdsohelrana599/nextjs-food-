@@ -24,7 +24,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header className="px-5 py-2 flex justify-between items-center gap-5 bg-stone-800 ">
+          <Link href="/">
           <img src="/logo.png" alt="" className="w-[50px] rounded-b-full" />
+          </Link>
+          
 
           <div className="space-x-5">
             <Link className="btn" href="/foods">
